@@ -7,6 +7,7 @@ package factorymethod;
  **/
 public class AliPayFactory implements PayFactory{
 
+    @Override
     public Pay create() {
         return new Alipay();
     }
